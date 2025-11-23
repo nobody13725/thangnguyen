@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Thông tin cá nhân - Movix</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Movix</div>
+        <nav>
+            <a href="#">Lịch chiếu</a>
+            <a href="#">Phim</a>
+            <a href="#">Rạp</a>
+        </nav>
+        <div class="search-box">
+            <input type="text" placeholder="Tìm phim, rạp..." />
+        </div>
+        <div class="user-box">mahiru</div>
+    </header>
+
+    <div class="profile-header">
+        <div class="avatar-large">👤</div>
+        <div class="profile-info">
+            <h2>mahiru</h2>
+            <p>Thành viên từ 2024</p>
+            <p>animehieu123@gmail.com</p>
+        </div>
+    </div>
+
+    <div class="tabs">
+        <a class="active" href="#">Tài khoản</a>
+        <a href="#">Tủ phim</a>
+        <a href="#">Vé</a>
+    </div>
+
+    <div class="container">
+        <h3>Thông tin cơ bản</h3>
+        <div class="row">
+            <div class="col">
+                <div class="form-group">
+                    <label>Tên tài khoản</label>
+                    <input type="text" value="mahiru" />
+                </div>
+            </div>
+            <div class="col">
+                <div class="form-group">
+                    <label>Email</label>
+                    <input type="email" value="animehieu123@gmail.com" />
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <div class="form-group">
+                    <label>Họ và tên</label>
+                    <input type="text" placeholder="Nhập họ và tên" />
+                </div>
+            </div>
+            <div class="col">
+                <div class="form-group">
+                    <label>Khu vực</label>
+                    <select>
+                        <option>Tp. Hồ Chí Minh</option>
+                        <option>Hà Nội</option>
+                        <option>Đà Nẵng</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        <h3>Thông tin liên hệ</h3>
+        <div class="row">
+            <div class="col">
+                <div class="form-group">
+                    <label>Số điện thoại</label>
+                    <input type="text" placeholder="Nhập số điện thoại" />
+                </div>
+            </div>
+            <div class="col">
+                <div class="form-group">
+                    <label>Ảnh đại diện</label>
+                    <input type="file" />
+                </div>
+            </div>
+        </div>
+
+        <div class="btn-container">
+            <button class="btn btn-reset">Khôi phục</button>
+            <button class="btn btn-update">Cập nhật</button>
+        </div>
+    </div>
+
+    <footer>
+        © 2025 Movix. Tất cả quyền được bảo lưu.
+    </footer>
+</body>
+</html>
+<link rel="stylesheet" href="style.css">
